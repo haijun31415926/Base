@@ -1,8 +1,7 @@
 //
 //  LVAppDelegate.m
 //  UITableViewDemo
-//
-//  Created by lhj on 16-4-5.
+//  Created by lhj on 16-4-5. 
 //  Copyright (c) 2016年 lhj. All rights reserved.
 //
 
@@ -15,6 +14,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [UITableViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
